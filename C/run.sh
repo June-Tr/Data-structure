@@ -1,10 +1,10 @@
 #!/bin/bash
-make singly_list_test
+make test
 echo
 echo
 echo "Start-------------------------------------------------------------"
-valgrind --leak-check=full ./test 
+valgrind --leak-check=full -s ./test
 echo "End---------------------------------------------------------------"
 echo
 echo
-make clean_singly_list
+make clean_test
