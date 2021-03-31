@@ -1,7 +1,7 @@
 # Singly list usage:
 
 ## Description:
-    - **Function support:**
+    **Function support:**
         1. Add data {any primitive or structure} to head of the list.
         2. Add data to the tail of the list.
         3. Retrieve data which had been stored at head of list.
